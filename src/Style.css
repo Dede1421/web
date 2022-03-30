@@ -1,3 +1,5 @@
+/* Navigation Bar */
+
 .nav {
     list-style: none;
     display: flex;
@@ -9,4 +11,13 @@
     letter-spacing: 2.8px;
     border-left: 1px solid #999;
     cursor: pointer;
+}
+
+/* Banner */
+
+.Banner {
+    /* background-image: url("./Images/Polar.jpg"); */
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
 }
