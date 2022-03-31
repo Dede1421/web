@@ -1,5 +1,6 @@
 import { Button, Grid } from "@mui/material";
 import React from "react";
+import "../Style.css"
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
                     <div>
                         <h3 style={{ textAlign: "left"}}>MAS INFORMACIÓN</h3>
                         <input type="email" placeholder="E-MAIL"/>
-                        <Button>NewsLetter</Button>
+                        <button className="btn" type="submit">NEWSLETTER</button>
                     </div>
                 </form>     
                 <div className="social">
