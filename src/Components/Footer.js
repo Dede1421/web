@@ -43,18 +43,18 @@ const NewsletterDialog = ({open, handlerClose}) => {
     return (
         <Dialog open={open}>
             <DialogTitle>
-                Thanks =D
+                Suscription
             </DialogTitle>
             <DialogContent>
-                An email has been sent with a link to reset your password. Click the link in
-                the email and follow the instructions.
+                Thanks for your suscription. You're Welcome to our Newsletter
             </DialogContent>
-            <DialogActions>
+            <DialogActions style={{padding: "20px 24px"}}>
                 <Button 
                     className="btn"
                     type="submit"
-                    onClick={handlerClose}>
-                        AGREE
+                    onClick={handlerClose}
+                    style={{ backgroundColor: "#333", color: "#fff"}}>
+                        GOT IT
                 </Button>
             </DialogActions>
         </Dialog>
