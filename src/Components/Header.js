@@ -11,9 +11,9 @@ const Header = () => {
                     <img src={NatGeoLogo} alt="" style={{height: "80px"}}></img>
                 </Link>
                     <ul className="nav">
-                        <li>PROGRAMACIÓN TV</li>
-                        <li>CORONAVIRUS</li>
-                        <li>FOTO DEL DÍA</li>
+                        <li>TV PROGRAMMING</li>
+                        <li>COVID-19</li>
+                        <li>PICTURE OF THE DAY</li>
                     </ul>
             </Grid>
            

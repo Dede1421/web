@@ -19,7 +19,7 @@ const Footer = () => {
             <Grid container justifyContent="space-between">
                <form onSubmit={handlerOpen}>
                     <div>
-                        <h3 style={{ textAlign: "left"}}>MAS INFORMACIÓN</h3>
+                        <h3 style={{ textAlign: "left"}}>MORE INFORMATION</h3>
                         <input type="email" placeholder="E-MAIL" required/>
                         <button 
                             className="btn" 
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </form>     
                 <div className="social">
-                    <h3>SEGUIR</h3>
+                    <h3>FOLLOW US</h3>
                 </div>                              
             </Grid>
             <NewsletterDialog open={open} handlerClose={handlerClose}/>           
@@ -54,7 +54,7 @@ const NewsletterDialog = ({open, handlerClose}) => {
                     className="btn"
                     type="submit"
                     onClick={handlerClose}>
-                        DE ACUERDO
+                        AGREE
                 </Button>
             </DialogActions>
         </Dialog>
