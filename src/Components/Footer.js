@@ -31,6 +31,8 @@ const Footer = () => {
                 </form>     
                 <div className="social">
                     <h3>FOLLOW US</h3>
+                    
+                    
                 </div>                              
             </Grid>
             <NewsletterDialog open={open} handlerClose={handlerClose}/>           
