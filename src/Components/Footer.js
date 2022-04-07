@@ -1,4 +1,4 @@
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid } from "@mui/material";
+import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid, Link } from "@mui/material";
 import React from "react";
 import "../Style.css"
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -35,9 +35,15 @@ const Footer = () => {
                 <div className="social">
                     <h3>FOLLOW US</h3>
                     <Grid>
-                        <FacebookIcon className="FbSocial"></FacebookIcon>
-                        <InstagramIcon className="FbSocial"></InstagramIcon>
-                        <TwitterIcon className="FbSocial"></TwitterIcon>
+                        <Link href="https://es-la.facebook.com/natgeo/" target="_blank">
+                            <FacebookIcon className="FbSocial"></FacebookIcon>
+                        </Link>
+                        <Link href="https://www.instagram.com/natgeo/" target="_blank">
+                            <InstagramIcon className="FbSocial"></InstagramIcon>
+                        </Link>
+                        <Link href="https://twitter.com/NatGeo_la?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <TwitterIcon className="FbSocial"></TwitterIcon>
+                        </Link>                                           
                     </Grid>                    
                 </div>                              
             </Grid>
