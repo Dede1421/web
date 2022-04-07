@@ -31,7 +31,7 @@ input {
     color: #999;
     letter-spacing: 2.8px;
     border-left: 1px solid #999;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* Banner */
@@ -45,3 +45,11 @@ input {
 
 /*Footer */
 
+.FbSocial {
+    margin-left: 10px;
+    /* cursor: pointer; */
+}
+
+.FbSocial:hover {
+   color: #1da1f2;
+}

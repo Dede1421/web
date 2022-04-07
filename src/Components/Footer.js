@@ -1,6 +1,9 @@
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid } from "@mui/material";
 import React from "react";
 import "../Style.css"
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Footer = () => {
     const [open, setOpen] = React.useState(false)
@@ -31,8 +34,11 @@ const Footer = () => {
                 </form>     
                 <div className="social">
                     <h3>FOLLOW US</h3>
-                    
-                    
+                    <Grid>
+                        <FacebookIcon className="FbSocial"></FacebookIcon>
+                        <InstagramIcon className="FbSocial"></InstagramIcon>
+                        <TwitterIcon className="FbSocial"></TwitterIcon>
+                    </Grid>                    
                 </div>                              
             </Grid>
             <NewsletterDialog open={open} handlerClose={handlerClose}/>           
