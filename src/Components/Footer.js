@@ -32,20 +32,20 @@ const Footer = () => {
                         </button>
                     </div>
                 </form>     
-                <div className="social">
+                <Grid>
                     <h3>FOLLOW US</h3>
-                    <Grid>
-                        <Link href="https://es-la.facebook.com/natgeo/" target="_blank">
-                            <FacebookIcon className="FbSocial"></FacebookIcon>
+                    <div>
+                        <Link style={{ color: "#000"}} href="https://es-la.facebook.com/natgeo/" target="_blank">
+                            <FacebookIcon className="FbSocial Fb"></FacebookIcon>
                         </Link>
-                        <Link href="https://www.instagram.com/natgeo/" target="_blank">
-                            <InstagramIcon className="FbSocial"></InstagramIcon>
+                        <Link style={{ color: "#000"}} href="https://www.instagram.com/natgeo/" target="_blank">
+                            <InstagramIcon className="FbSocial Instagram"></InstagramIcon>
                         </Link>
-                        <Link href="https://twitter.com/NatGeo_la?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                        <Link style={{ color: "#000"}} href="https://bit.ly/3735eaP" target="_blank">
                             <TwitterIcon className="FbSocial"></TwitterIcon>
                         </Link>                                           
-                    </Grid>                    
-                </div>                              
+                    </div>                    
+                </Grid>                              
             </Grid>
             <NewsletterDialog open={open} handlerClose={handlerClose}/>           
         </footer>

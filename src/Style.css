@@ -46,10 +46,17 @@ input {
 /*Footer */
 
 .FbSocial {
-    margin-left: 10px;
-    /* cursor: pointer; */
+    margin-left: 10px   
 }
 
-/* .FbSocial:hover {
+.FbSocial:hover {
    color: #1da1f2;
-} */
+}
+
+.Fb:hover {
+    color: #385898;    
+}
+
+.Instagram:hover {
+    color: #DD2A7B
+}
